@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    width:100%;
+    min-height: 500px;
+
+}
+.container .img1{
+   align-self: center;
+    width: 100%;
+    margin: auto;
+    height: 350px;
+   background-color: black;
+    margin-top: 10px;
+}
+
+.img1{
+    width: 200px;
+    height: 50px;
+    background-image: url(https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/health/wp-content/uploads/2022/01/foods_to_eat_to_lose_weight.jpeg);
+    background-repeat: no-repeat;
+    background-position: top ;
+    border-radius: 5px;
+}
+
+.bgtext{
+    width:450px;
+    height: 250px;
+    border-radius: 5%;
+    background-color: aliceblue;
+    opacity: 0.8;
+    margin-left: 35%;
+}
+.bgtext:hover{
+    animation-fill-mode: forwards;
+}
+.container .img1{
+    padding-top: 15%;
+}
+.text p{
+    
+    color: black;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 30px;    
+}
+.text input{
+    padding: 3%;
+    margin-top: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    margin-left: 12%;
+    align-content: center;
+}
+
+.text input:hover{
+    color: white;
+    background-color: black;
+}
+
+.i{
+    display: flex;
+   padding-top: 20%;
+   justify-content: space-between;
+  
+}
+.i1 input{
+    display: flex;
+    margin-left: 5%;
+    margin-top: 1px;
+    height: 30px;
+    width: 100px;
+    
+}
+ .i2 input{
+    display: flex;
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 1px;
+    height: 30px;
+    width: 100px;
+
+}

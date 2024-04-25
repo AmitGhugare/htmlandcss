@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="project/py.py" />
+   
+    <script defer src="project/py.py"></script>
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        
+        }
+        body
+        {
+            background-image: url(project/iphone-791450_1920.jpg);
+            background-position:bottom;
+            background-size: cover;
+        }
+        .container
+        {
+            width: 100%;
+            min-height: 500px;
+        }
+        .container .login
+        {
+            width:22%;
+            height: 500px;
+          margin-left: 200px;
+          margin-top: 150px;
+
+        }
+        .input1 input
+        {
+            padding: 15px;
+            width: 300px;
+             border: none;
+             border-radius: 20px;
+             background-color: rgb(212, 208, 208);
+        }
+        .input2 input
+        {
+            background-color: rgb(214, 209, 209);
+            padding: 15px;
+            width: 300px;
+            border: none;
+            border-radius: 20px; 
+        }
+        .lab2 label
+        {
+            margin-top: 20px;
+        }
+        .rem 
+        {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .rem1 input{
+            cursor: pointer;
+        }
+        .sub
+        {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 15px;
+        }
+        .submit input{
+            padding: 10px;
+            width: 100px;
+            background-color: rgb(0, 255, 42);
+            border-radius: 10px;
+            border: none;
+            color: aliceblue;
+            cursor: pointer;
+        }
+        .submit input:hover
+        {
+            background-color: darkgreen;
+            width: 125%;
+            height: 100%;
+        }
+        .cancel input
+        {
+            border-radius: 10px;
+            width: 100px;
+            padding: 10px;
+            background-color: red;
+            border: none;
+            color: aliceblue;
+             cursor: pointer;
+            
+        }
+        .cancel input:hover
+        {
+            background-color: rgb(0, 32, 100);
+            width: 125%;
+            height: 100%;
+            
+        }
+        .login img
+        {
+            margin-left: 100px;
+            width: 100px;
+            height: 100px;
+            mix-blend-mode: multiply;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="login">
+            <img src="project/technical-Campus.jpg" alt="image">
+            <form action="connect.php" method="post">
+            <div class="data">
+                <label for="">Enter Username:</label>
+                <div class="input1">
+                    
+                    <input type="text" name="username" placeholder="Enter username" name="username"><br><br>
+                </div>
+                <label for="" class="lab2">password:</label>
+                <div class="input2">
+                    <input type="password" name="password" placeholder="Enter password" name="password">
+                </div>
+                 <div class="rem">
+                    <div class="rem1">
+                        <input type="checkbox"><span>Remember Me</span>
+                    </div>
+                    <div class="pass">
+                       <a href="https://support.google.com/accounts/answer/41078?hl=en&co=GENIE.Platform%3DAndroid">Forget Password?</a>
+                    </div>
+                 </div>
+                <div class="sub">
+                    <div class="submit">
+                       <a href="index1.html"><input type="submit" value="Submit" ></a>
+                    </div>
+                    <div class="cancel">
+                        <a href="Desktop"><input type="submit" value="Cancel"></a>
+                    </div>
+                </div>
+            </div>
+        </form>
+         
+         </div>
+    </div>
+</body>
+</html>

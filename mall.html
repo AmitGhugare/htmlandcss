@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mall.css">
+    <title>Mall Billing System</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+    <h1>Mall Billing System</h1>
+
+    <form id="billingForm">
+        <label for="itemName">Item Name:</label>
+        <input type="text" id="itemName" name="itemName" required><br>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" required><br>
+
+        <label for="price">Price:</label>
+        <input type="number" id="price" name="price" min="0.01" step="0.01" required><br>
+
+        <button type="button" onclick="addItem()">Add Item</button>
+    </form>
+
+    <div id="billingItems">
+        <!-- Items added dynamically will appear here -->
+    </div>
+
+    <button onclick="calculateTotal()">Calculate Total</button>
+    <p id="totalAmount"></p>
+
+    <script>
+        // JavaScript code for interactivity
+        // You'll need to add JavaScript functions to add items, calculate totals, etc.
+        function addItem() {
+            // Add logic to add item to the list
+        }
+
+        function calculateTotal() {
+            // Add logic to calculate the total amount
+        }
+    </script>
+</body>
+</html>

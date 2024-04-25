@@ -1,0 +1,398 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+  background-color: black;
+
+}
+.container
+{
+    width:100%;
+    min-height: 500px;
+
+}
+.container .main
+{
+    width: 80%;
+    margin: auto;
+    height: 1000px;
+   background-color: aliceblue;
+    margin-top: 10px;
+  
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(183, 6, 189);
+
+}
+.logo h1{
+    padding-left: 25px;
+}
+.nav a{
+margin-right: 30px;
+text-decoration: none;
+padding: 10px;
+color: aliceblue;
+}
+.nav a:hover
+{
+    background-color: rgb(172, 236, 107);
+    color: rgb(0, 153, 255);
+    border-radius: 10px;
+}
+.image
+{
+    width: 100%;
+    height: 500px;
+    background-image: url(/images/river-1589616_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.parent 
+{
+     text-align: center;
+     padding-top: 140px;
+     /* color: aliceblue; */
+     
+
+}
+.data span{
+    color: aqua;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 40px;
+}
+ .data p{
+    /* font-weight: 600; */
+    font-size: 30px;
+    font-family: sans-serif;
+   
+}
+.sub  input
+{
+     padding: 10px;
+     margin-top: 20px;
+     width: 150px;
+     border-radius: 5px;
+     background-color: black;
+     color: aliceblue;
+     cursor: pointer;
+}
+.main .logos
+{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    text-align: center;
+}
+.logos p{
+    padding: 20px;
+}
+.logos h1 {
+ margin-top: 10px;
+}
+.logos .f
+{
+     width: 30%;
+     height: 250px;
+     background-color: rgb(238, 232, 232);
+     border-radius: 10px;
+}
+.logos .s
+{
+    width: 30%;
+     height: 250px;
+     background-color: rgb(238, 232, 232);
+     border-radius: 10px;
+}
+.logos .t{
+    width: 30%;
+    height: 250px;
+    background-color: rgb(238, 232, 232);
+    border-radius: 10px;
+}
+.f i{
+    border: 2px solid #000;
+    font-size: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.s i{
+    border: 2px solid #000;
+    font-size: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.t i{
+    border: 2px solid #000;
+    font-size: 50px;
+    border-radius: 50%;
+    margin-top: 20px;  
+}
+
+.im1
+{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(222, 235, 209);
+    margin-top: 20px;
+}
+.im1 img{
+    width:100%;
+    margin-top: 3%;    
+}
+.data1 h1
+{
+    text-align: center;
+    padding-top: 20px;   
+}
+.data1 h3{
+    text-align: center;
+    font-size: larger;
+    color: aqua;
+}
+.data1 p{
+    padding: 20px;
+}
+.im1 .im img
+{
+    width: 80%;
+    height: 400px;
+    margin-left: 100px;
+}
+.main .flex
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content:center;
+    gap:20px;
+    background-color: rgb(194, 202, 218);
+}
+.flex .box1
+{
+    width: 40%;
+    height: 300px;
+    background-color: rgb(243, 219, 203);
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+}
+.flex .box2
+{
+    width: 40%;
+    height: 300px;
+    background-color: rgb(243, 219, 203);
+    margin-top: 40px;
+    display: flex;
+    text-align: center;
+}
+.box1 .text1
+{
+    width: 50%;
+    height: 300px;
+    padding: 15px;
+}
+.text1 p{
+    margin-top: 10%;
+}
+.but1 input{
+    height: 30px;
+    width: 100px;
+    margin-top: 30px;
+    align-self: center;
+    cursor: pointer;
+    color:rgb(17, 53, 53);
+    border-color: aqua;
+}
+.but1 input:hover{
+    background-color: #000;
+    color: rgb(243, 219, 203);
+}
+.box1 .photo1 {
+      width: 50%;
+    height: 300px;
+   background-color: rgb(218, 226, 198);
+}
+.photo1 img{
+    width: 100%;
+    height: 300px;
+}
+.box2 .text2
+{
+    width: 50%;
+    height: 300px;
+    padding: 15px;
+}
+.box2 .photo2 {
+      width: 50%;
+    height: 300px;
+    background-color: rgb(221, 238, 238);
+}
+
+.photo2 img{
+    width: 100%;
+    height: 300px;
+}
+.text2 p{
+    margin-top: 10%;
+}
+.but2 input{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    align-self: center;
+    cursor: pointer;
+    color: rgb(17, 53, 53);
+    border-color: aqua;
+}
+.but2 input:hover{
+    background-color: #000;
+    color: rgb(243, 219, 203);
+}
+
+.cont{
+    width: 100%;
+    height:350px;
+    background-color: rgb(218, 226, 211);
+    text-align: center;
+}
+ .content{
+    padding-top: 2%;
+}
+
+.head .c1{
+    width: 25%;
+    height: 250px;
+    background-color:rgb(248, 229, 229);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.head .c2{
+    width: 25%;
+    height: 250px;
+    background-color: rgb(248, 229, 229);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.head .c3{
+    width: 25%;
+    height: 250px;
+    background-color: rgb(248, 229, 229);
+    text-align: center;
+    padding-top: 20px;
+}
+.head .c{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.c1  p{
+     padding: 25px;
+}
+.c2  p{
+    padding: 25px;
+}
+.c3  p{
+    padding: 25px;
+}
+
+.que{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(221, 241, 234);
+    text-align: center;
+}
+
+.que h2{
+    padding-top: 20px;
+
+}
+
+.que p{
+    padding: 25px;
+}
+
+.but3 input{
+   width: 150px;
+   height: 30px;
+    cursor: pointer;
+    color: rgb(17, 53, 53);
+    border-color: aqua;
+}
+
+.but3  :hover{
+    background-color: #5a3a3a;
+    color: aquamarine;
+}
+.footer
+{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(15, 14, 65);
+}
+.subfooter
+{
+    display: flex;
+    justify-content: space-evenly;
+   
+    color: aliceblue;
+    text-decoration: none;
+}
+.subfooter .f1,.f2,.f3,.f4
+{
+    margin-top: 50px;
+    
+}
+.subfooter ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+.subfooter h2{
+    margin-bottom: 10px;
+}
+.icons
+{
+    margin-top: 20px;
+    cursor: pointer;
+}
+.icons i{
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: crimson;
+    color: rgb(8, 8, 8);
+    border-radius: 50%;
+   font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .im1{
+    background-image: url("https://plus.unsplash.com/premium_photo-1674375039817-cb0a39ad2f98?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aWNlJTIwbW91bnRhaW58ZW58MHx8MHx8fDA%3D");
+    width: 10%;
+} */
