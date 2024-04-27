@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+.main{
+    width: 60%;
+    min-height: 450px;
+    background-color: rgb(255, 255, 255);
+    margin: 140px auto;
+    border-radius: 20px;
+    padding-top: 40px;
+    
+}
+.clearfix{
+    content: "";
+    clear: both;
+    display: block;
+}
+.login{
+    width: 37%;
+    min-height: 380px;
+    box-shadow: 8px 0px 8px 0px rgb(117, 115, 115);
+    margin-left: 30px;
+    float: left;
+    padding: 20px;
+    /* padding-top: 30px; */
+}
+.img{
+    width: 57%;
+    height: 380px;
+    /* border: 2px solid purple; */
+    float: right;
+    margin-right: 10px;
+}
+.head{
+    width: 100%;
+    height: 40px;   
+}
+.head p{
+    width: 100%;
+    height: 40px;
+    padding-top: 5px
+}
+.formfeilds{
+    width: 100%;
+    height: 300px;
+    padding-top: 20px;
+}
+ label
+{
+    width: 100%;
+    height: 40px;
+}
+input{
+    width: 100%;
+    height: 34px;
+}
+input[type=email]
+{
+    border-radius:10px;
+    padding-left:15px;
+    margin-bottom:14px;
+    margin-top: 7px;
+}
+input[type=password]
+{
+    border-radius:10px;
+    padding-left:15px;
+    margin-bottom:14px;
+    margin-top: 7px;
+}
+label a{
+    padding-left:30px;
+}
+input[type=checkbox]
+{
+    width: 7%;
+    height: 14px;
+    padding-right: 20px;
+}
+.formfeilds button{
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    /* border-radius: 20px; */
+    /* margin-left: 20px; */
+    border: none;
+    background-image:linear-gradient(#000046,#1CB5E0);
+    color: white;
+}
+.formfeilds button:hover{
+    background-image:linear-gradient(#eb5757,#000000);
+    cursor: pointer ;
+
+}
+.formfeilds p{
+    width: 100%;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.follo{
+    width: 100%;
+    height: 110px;
+}
+
+.f1 button{
+    width: 45%;
+    float: left;
+    color: red;
+    background-image: none;
+    background-image: url(/images/google.png);
+    /* background-position:center; */
+    background-size:auto;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-color: white;
+    border:2px solid rgb(206, 48, 48);
+    border-radius: 10px;
+}
+.f2 button{
+    width: 45%;
+    float: right;
+    color: rgb(56, 93, 206);
+    background-image: none;
+    background-color:white;
+    border:2px solid rgb(56, 93, 206);
+    border-radius: 10px;
+}
