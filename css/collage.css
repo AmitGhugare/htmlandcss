@@ -16,7 +16,7 @@ body{
 .main_header{
     width: 100%;
     height: 450px;
-    background-image: url(/images/collage\ friend.jpg);
+    background-image: url(./images/collage\ friend.jpg);
     background-position: center;
     background-size: cover;
 }
